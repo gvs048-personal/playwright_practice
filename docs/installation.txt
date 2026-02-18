@@ -1,0 +1,14 @@
+install playwright using npm 
+    npm init playwright@latest
+
+running test
+    npm playwright test
+    npm playwright test --headed : to see the browser
+    npm playwright test --project=chromium : to run in browser
+    npm playwright test tests/example.spec.js : to run one file
+    npm playwright test --ui : open testing UI
+
+HTML Test Report
+    npx playwright show-Report
+        
+    

@@ -1,0 +1,9 @@
+Navigation
+----------
+    await page.goto();
+await - used to make sure to wait until it will complete then only it will execute the next step
+while executing this step the promise is inprogress, after complete it will return pass/fail, so it will wait for that complete state
+
+page - page is a fixture, will open the bew page or tab in the browser
+goto - is used to redirect to the given url
+
